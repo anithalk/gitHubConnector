@@ -24,6 +24,7 @@ mvn install
 *************************************************************************************
 Execution of the main method, will automatically invoke all the above four routines
 and the results will be printed on the console.
+Execute the following command from the project root directory, where pom.xml is present 
 
 mvn exec:java -Dexec.mainClass="com.comcast.GitHubDemo"
 
