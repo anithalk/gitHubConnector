@@ -18,16 +18,21 @@ mvn clean install
 (or)
 mvn install 
 
-
 *************************************************************************************
 ***********************Execute the Program with default Settings:********************
 *************************************************************************************
+
+Execution Time:
+Kindly note, remote repository cloning will take close to 5 mins for the first time
+So overall execution time will be approximately 6-8 min for the first time.
+It will be relatively less for the subsequesnt executions(pulls)
+Roughly 2-3 mins
+
 Execution of the main method, will automatically invoke all the above four routines
 and the results will be printed on the console.
 Execute the following command from the project root directory, where pom.xml is present 
 
 mvn exec:java -Dexec.mainClass="com.comcast.GitHubDemo"
-
 
 *************************************************************************************
 ***********************Execute the Program with Custom Settings:********************
